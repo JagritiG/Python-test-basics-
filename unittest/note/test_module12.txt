@@ -1,0 +1,14 @@
+Skipping tests conditionally and unconditionally:
+Decorators for implementing the skipping mechanism in unittest:
+
+* unittest.skip(reason): Unconditionally skips the decorated test.
+reason should describe why the test is being skipped.
+
+* unittest.skipIf(condition, reason): Skips the decorated test if
+condition is true.
+
+* unittest.skipUnless(condition, reason): Skips the decorated
+test unless condition is true.
+
+* unittest.expectedFailure(): Marks the test as an expected failure.
+If the test fails when it runs, the test is not counted as a failure.

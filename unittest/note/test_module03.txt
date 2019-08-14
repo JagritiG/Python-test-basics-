@@ -1,0 +1,6 @@
+We are testing a custom function called add() with the assertEqual() method.
+Method assertEqual() takes two arguments and determines if both arguments are equal.
+If both arguments are equal, the test case passes; otherwise, it fails.
+We have also written a function called add() in the same test module that’s not a member
+of the test class. With test_case01() and test_case03(), we are testing the correctness
+of the function.

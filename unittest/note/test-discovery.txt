@@ -1,0 +1,7 @@
+Test discovery is the process of discovering and executing
+all the tests in the project directory and all its subdirectories.
+The test discovery process is automated in unittest and can be
+invoked using the discover sub-command. It can be invoked with the
+following command:
+
+python3 -m unittest discover

@@ -1,0 +1,11 @@
+$ python3 test_module02.py -v
+test_case01 (__main__.TestClass02) ...
+Running Test method : test_case01
+ok
+test_case02 (__main__.TestClass02) ...
+Running Test method : test_case02
+ok
+
+
+Note: inspect.stack()[0][3] method prints the name of the current test method.
+It’s useful for debugging when you want to know the order that the methods are executed in the test class.
